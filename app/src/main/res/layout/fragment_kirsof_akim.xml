@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KirsofAkimFragment">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Kirşof'un Akımlar Kanunu"
+        android:textColor="@color/buton"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/kirsofakimresim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <EditText
+        android:id="@+id/editTextKirsofAkimR1"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="R1"
+        android:inputType="number"
+        android:textColor="@color/yazi"
+        android:textColorHint="@color/yazi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <EditText
+        android:id="@+id/editTextKirsofAkimR2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="R2"
+        android:inputType="number"
+        android:textColor="@color/yazi"
+        android:textColorHint="@color/yazi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextKirsofAkimR1" />
+
+    <EditText
+        android:id="@+id/editTextKirsofAkimR3"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="R3"
+        android:inputType="number"
+        android:textColor="@color/yazi"
+        android:textColorHint="@color/yazi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextKirsofAkimR2" />
+
+    <EditText
+        android:id="@+id/editTextKirsofAkimV"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="V"
+        android:inputType="number"
+        android:textColor="@color/yazi"
+        android:textColorHint="@color/yazi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextKirsofAkimR3" />
+
+    <TextView
+        android:id="@+id/textViewKirsifAkimvR1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="VR1"
+        android:textColor="@color/yazi"
+        android:textColorHint="@color/yazi"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewKirsifAkimIR1"
+        app:layout_constraintTop_toBottomOf="@+id/textViewKirsifAkimI" />
+
+    <TextView
+        android:id="@+id/textViewKirsifAkimIR1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="IR1"
+        android:textColor="@color/yazi"
+        android:textColorHint="@color/yazi"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/textViewKirsifAkimvR1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewKirsofAkimRes" />
+
+    <TextView
+        android:id="@+id/textViewKirsifAkimIR2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="IR2"
+        android:textColor="@color/yazi"
+        android:textColorHint="@color/yazi"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/textViewKirsifAkimvR2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewKirsifAkimIR1" />
+
+    <TextView
+        android:id="@+id/textViewKirsifAkimvR3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="VR3"
+        android:textColor="@color/yazi"
+        android:textColorHint="@color/yazi"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewKirsifAkimIR3"
+        app:layout_constraintTop_toBottomOf="@+id/textViewKirsifAkimvR2" />
+
+    <TextView
+        android:id="@+id/textViewKirsifAkimIR3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="IR3"
+        android:textColor="@color/yazi"
+        android:textColorHint="@color/yazi"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/textViewKirsifAkimvR3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewKirsifAkimIR2" />
+
+    <TextView
+        android:id="@+id/textViewKirsifAkimvR2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="VR2"
+        android:textColor="@color/yazi"
+        android:textColorHint="@color/yazi"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewKirsifAkimIR2"
+        app:layout_constraintTop_toBottomOf="@+id/textViewKirsifAkimvR1" />
+
+    <TextView
+        android:id="@+id/textViewKirsofAkimRes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Reş"
+        android:textColor="@color/yazi"
+        android:textColorHint="@color/yazi"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/textViewKirsifAkimI"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonKirsofAkimHesapla" />
+
+    <TextView
+        android:id="@+id/textViewKirsifAkimI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Akım"
+        android:textColor="@color/yazi"
+        android:textColorHint="@color/yazi"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewKirsofAkimRes"
+        app:layout_constraintTop_toBottomOf="@+id/buttonKirsofAkimHesapla" />
+
+    <Button
+        android:id="@+id/buttonKirsofAkimHesapla"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/buton"
+        android:text="HESAPLA"
+        android:textColor="@color/butonyazi"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextKirsofAkimV" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/akimicon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textViewKirsifAkimvR3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewKirsifAkimIR3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

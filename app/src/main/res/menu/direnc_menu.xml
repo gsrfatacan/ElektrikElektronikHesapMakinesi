@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ucBantDirencFragment"
+        android:icon="@drawable/ucbantresim"
+        android:title="3 Bantlı Direnç" />
+    <item
+        android:id="@+id/dortBantDirencFragment"
+        android:icon="@drawable/dortbantresim"
+        android:title="4 Bantlı Direnç" />
+    <item
+        android:id="@+id/besBantDirencFragment"
+        android:icon="@drawable/besbantresim"
+        android:title="5 Bantlı Direnç" />
+</menu>

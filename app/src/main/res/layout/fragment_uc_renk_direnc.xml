@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UcRenkDirencFragment">
+
+    <RadioGroup
+        android:id="@+id/radioGroup_3_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/radioGroup_3_2"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButtonSiyah33"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#000000"
+            android:buttonTint="#FFFFFF"
+            android:text="Siyah"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/radioButtonKahve33"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#964B00"
+            android:buttonTint="#FFFFFF"
+            android:text="Kahverengi"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/radioButtonKirmizi33"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#FB1B0B"
+            android:buttonTint="#FFFFFF"
+            android:text="Kırmızı"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/radioButtonTuruncu33"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#FF9800"
+            android:buttonTint="#000000"
+            android:text="Turuncu"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/radioButtonSari33"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#FFEB3B"
+            android:buttonTint="#000000"
+            android:text="Sarı"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/radioButtonYesil33"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#4CAF50"
+            android:buttonTint="#FFFFFF"
+            android:text="Yeşil"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/radioButtonMavi33"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#03A9F4"
+            android:buttonTint="#FFFFFF"
+            android:text="Mavi"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/radioButtonMor33"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#673AB7"
+            android:buttonTint="#FFFFFF"
+            android:text="Mor"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/radioButtonGri33"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#808080"
+            android:buttonTint="#000000"
+            android:text="Gri"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/radioButtonBeyaz33"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#FFFFFF"
+            android:buttonTint="#000000"
+            android:text="Beyaz"
+            android:textColor="#000000" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup_3_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/radioGroup_3_3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/radioGroup_3_1"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButtonSiyah32"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#000000"
+            android:buttonTint="#FFFFFF"
+            android:text="Siyah"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/radioButtonKahve32"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#964B00"
+            android:buttonTint="#FFFFFF"
+            android:text="Kahverengi"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/radioButtonKirmizi32"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#FB1B0B"
+            android:buttonTint="#FFFFFF"
+            android:text="Kırmızı"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/radioButtonTuruncu32"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#FF9800"
+            android:buttonTint="#000000"
+            android:text="Turuncu"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/radioButtonSari32"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#FFEB3B"
+            android:buttonTint="#000000"
+            android:text="Sarı"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/radioButtonYesil32"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#4CAF50"
+            android:buttonTint="#FFFFFF"
+            android:text="Yeşil"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/radioButtonMavi32"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#03A9F4"
+            android:buttonTint="#FFFFFF"
+            android:text="Mavi"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/radioButtonMor32"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#673AB7"
+            android:buttonTint="#FFFFFF"
+            android:text="Mor"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/radioButtonGri32"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#808080"
+            android:buttonTint="#000000"
+            android:text="Gri"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/radioButtonBeyaz32"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#FFFFFF"
+            android:buttonTint="#000000"
+            android:text="Beyaz"
+            android:textColor="#000000" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup_3_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/radioGroup_3_2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButtonSiyah31"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#000000"
+            android:buttonTint="#FFFFFF"
+            android:text="Siyah"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/radioButtonKahve31"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#964B00"
+            android:buttonTint="#FFFFFF"
+            android:text="Kahverengi"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/radioButtonKirmizi31"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#FB1B0B"
+            android:buttonTint="#FFFFFF"
+            android:text="Kırmızı"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/radioButtonTuruncu31"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#FF9800"
+            android:buttonTint="#000000"
+            android:text="Turuncu"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/radioButtonSari31"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#FFEB3B"
+            android:buttonTint="#000000"
+            android:text="Sarı"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/radioButtonYesil31"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#4CAF50"
+            android:buttonTint="#FFFFFF"
+            android:text="Yeşil"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/radioButtonMavi31"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#03A9F4"
+            android:buttonTint="#FFFFFF"
+            android:text="Mavi"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/radioButtonMor31"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#673AB7"
+            android:buttonTint="#FFFFFF"
+            android:text="Mor"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/radioButtonGri31"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#808080"
+            android:buttonTint="#000000"
+            android:text="Gri"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/radioButtonBeyaz31"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#FFFFFF"
+            android:buttonTint="#000000"
+            android:text="Beyaz"
+            android:textColor="#000000" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button3RenkHesapla"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="@color/buton"
+        android:text="Hesapla"
+        android:textColor="@color/butonyazi"
+        android:textSize="20sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3RenkSonuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup_3_2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

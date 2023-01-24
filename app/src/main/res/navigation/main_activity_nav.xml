@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_nav"
+    app:startDestination="@id/direncFragment">
+
+    <fragment
+        android:id="@+id/direncFragment"
+        android:name="com.gserifatacan.elektrikelektronikhesapmakinesi.DirencFragment"
+        android:label="fragment_direnc"
+        tools:layout="@layout/fragment_direnc" />
+    <fragment
+        android:id="@+id/kondansatorFragment"
+        android:name="com.gserifatacan.elektrikelektronikhesapmakinesi.KondansatorFragment"
+        android:label="fragment_kondansator"
+        tools:layout="@layout/fragment_kondansator" />
+    <fragment
+        android:id="@+id/ohmKanunuFragment"
+        android:name="com.gserifatacan.elektrikelektronikhesapmakinesi.OhmKanunuFragment"
+        android:label="fragment_ohm_kanunu"
+        tools:layout="@layout/fragment_ohm_kanunu" />
+    <fragment
+        android:id="@+id/seriFragment"
+        android:name="com.gserifatacan.elektrikelektronikhesapmakinesi.SeriFragment"
+        android:label="fragment_seri_paralel"
+        tools:layout="@layout/fragment_seri" />
+    <fragment
+        android:id="@+id/paralelFragment"
+        android:name="com.gserifatacan.elektrikelektronikhesapmakinesi.ParalelFragment"
+        android:label="fragment_paralel"
+        tools:layout="@layout/fragment_paralel" />
+    <fragment
+        android:id="@+id/kirsofGerilimFragment"
+        android:name="com.gserifatacan.elektrikelektronikhesapmakinesi.KirsofGerilimFragment"
+        android:label="fragment_kirsof_gerilim"
+        tools:layout="@layout/fragment_kirsof_gerilim" />
+    <fragment
+        android:id="@+id/kirsofAkimFragment"
+        android:name="com.gserifatacan.elektrikelektronikhesapmakinesi.KirsofAkimFragment"
+        android:label="fragment_kirsof_akim"
+        tools:layout="@layout/fragment_kirsof_akim" />
+    <fragment
+        android:id="@+id/direncRenkFragment"
+        android:name="com.gserifatacan.elektrikelektronikhesapmakinesi.DirencRenkFragment"
+        android:label="fragment_direnc_renk"
+        tools:layout="@layout/fragment_direnc_renk" />
+    <fragment
+        android:id="@+id/ledOnDirenc"
+        android:name="com.gserifatacan.elektrikelektronikhesapmakinesi.LedOnDirenc"
+        android:label="fragment_led_on_direnc"
+        tools:layout="@layout/fragment_led_on_direnc" />
+    <fragment
+        android:id="@+id/ayarlarFragment"
+        android:name="com.gserifatacan.elektrikelektronikhesapmakinesi.AyarlarFragment"
+        android:label="fragment_ayarlar"
+        tools:layout="@layout/fragment_ayarlar" />
+</navigation>

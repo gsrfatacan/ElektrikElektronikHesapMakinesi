@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ParalelFragment">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="390dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/paralelbaglantiresim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <EditText
+        android:id="@+id/editTextPR1"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="R1"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/yazi"
+        android:textColorHint="@color/yazi"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextPR2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="R2"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/yazi"
+        android:textColorHint="@color/yazi"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPR1" />
+
+    <Button
+        android:id="@+id/buttonParalelHesapla"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/buton"
+        android:text="HESAPLA"
+        android:textColor="@color/butonyazi"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <EditText
+        android:id="@+id/editTextPR3"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="R3"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/yazi"
+        android:textColorHint="@color/yazi"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPR2" />
+
+    <TextView
+        android:id="@+id/textViewParalel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/yazi"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonParalelHesapla" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Dirençlerin Paralel Bağlantısı"
+        android:textColor="@color/buton"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewResParalel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:textColor="@color/renkli"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPR3" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/p_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

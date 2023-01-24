@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/direncFragment"
+        android:icon="@drawable/resistoricon"
+        android:title="Direnç" />
+    <item
+        android:id="@+id/ohmKanunuFragment"
+        android:icon="@drawable/omegaicon"
+        android:title="Ohm Kanunu" />
+    <item
+        android:id="@+id/seriFragment"
+        android:icon="@drawable/s_icon"
+        android:title="Dirençlerin Seri Bağlantısı" />
+    <item
+        android:id="@+id/paralelFragment"
+        android:icon="@drawable/p_icon"
+        android:title="Dirençlerin Paralel Bağlantısı" />
+    <item
+        android:id="@+id/kirsofGerilimFragment"
+        android:icon="@drawable/voltageicon"
+        android:title="Kirşof'un Gerilimler Kanunu" />
+    <item
+        android:id="@+id/kirsofAkimFragment"
+        android:icon="@drawable/akimicon"
+        android:title="Kirşof'un Akımlar Kanunu" />
+    <item
+        android:id="@+id/ledOnDirenc"
+        android:icon="@drawable/ledicon"
+        android:title="Led Koruma Direnci" />
+    <item
+        android:id="@+id/ayarlarFragment"
+        android:icon="@drawable/ayarlaricon"
+        android:title="Ayarlar" />
+</menu>

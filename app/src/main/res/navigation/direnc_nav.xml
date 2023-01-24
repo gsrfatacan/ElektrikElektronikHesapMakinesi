@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/direnc_nav"
+    app:startDestination="@id/ucBantDirencFragment">
+
+    <fragment
+        android:id="@+id/ucBantDirencFragment"
+        android:name="com.gserifatacan.elektrikelektronikhesapmakinesi.UcBantDirencFragment"
+        android:label="fragment_uc_bant_direnc"
+        tools:layout="@layout/fragment_uc_bant_direnc" />
+    <fragment
+        android:id="@+id/dortBantDirencFragment"
+        android:name="com.gserifatacan.elektrikelektronikhesapmakinesi.DortBantDirencFragment"
+        android:label="fragment_dort_bant_direnc"
+        tools:layout="@layout/fragment_dort_bant_direnc" />
+    <fragment
+        android:id="@+id/besBantDirencFragment"
+        android:name="com.gserifatacan.elektrikelektronikhesapmakinesi.BesBantDirencFragment"
+        android:label="fragment_bes_bant_direnc"
+        tools:layout="@layout/fragment_bes_bant_direnc" />
+</navigation>
