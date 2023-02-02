@@ -16,5 +16,18 @@
     <color name="direncnavbar">#000000</color>
     <color name="background">#FFFFFF</color>
     <color name="renkli">#DF1919</color>
+    <color name="butonsecim">#67FBEB</color>
     <color name="mavisari">#2196F3</color>
+    <color name="butonsiyah">#000000</color>
+    <color name="butonkahve">#964B00</color>
+    <color name="butonkirmizi">#F44336</color>
+    <color name="butonturuncu">#FF9800</color>
+    <color name="butonsari">#FFEB3B</color>
+    <color name="butonyesil">#4CAF50</color>
+    <color name="butonmavi">#2196F3</color>
+    <color name="butonmor">#673AB7</color>
+    <color name="butongri">#808080</color>
+    <color name="butonbeyaz">#FFFFFF</color>
+    <color name="butonaltin">#D4AF37</color>
+    <color name="butongumus">#C0C0C0</color>
 </resources>

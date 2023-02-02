@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Electricity Electronic Calculator</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="siyah">Black</string>
+    <string name="kahverengi">Brown</string>
+    <string name="kirmizi">Red</string>
+    <string name="turuncu">Ornage</string>
+    <string name="sari">Yellow</string>
+    <string name="yesil">Green</string>
+    <string name="mavi">Blue</string>
+    <string name="mor">Purple</string>
+    <string name="gri">Grey</string>
+    <string name="beyaz">White</string>
+    <string name="altin">Gold</string>
+    <string name="gumus">Silver</string>
+    <string name="hesapla">Calculate</string>
+    <string name="ucbant">3-Band Resistor</string>
+    <string name="dortbant">4-Band Resistor</string>
+    <string name="besbant">5-Band Resistor</string>
+    <string name="direncbaslik">Resistor</string>
+    <string name="ohmkanunu">OHM\'s Law</string>
+    <string name="seribaglidirenc">Serial Connected Resistors</string>
+    <string name="paralelbaglidirenc">Parallel Connected Resistors</string>
+    <string name="kirsofgerilim">Kirchhoff\'s Voltage Law</string>
+    <string name="kirsofakim">Kirchhoff\'s Current Law</string>
+    <string name="ledseri">LED Series Resistor</string>
+    <string name="ayarlar">Settings</string>
+    <string name="ledrenk">Choose LED Color</string>
+    <string name="ledkaynakgerilim">Enter Source Voltage</string>
+    <string name="direncdegeri">Enter Resistor Value (Ω)</string>
+    <string name="gerilimdegeri">Enter Voltage Value (V)</string>
+    <string name="akimdegeri">Enter Current Value (A)</string>
+    <string name="menu">Menu</string>
+    <string name="paylas">Share APP</string>
+    <string name="degerlendir">Rate APP</string>
+    <string name="kirsofakimuyari">Enter the resistance values in the R1, R2, R3 and V boxes.</string>
+    <string name="kondansator">Capasitor</string>
+    <string name="kondansatorAciklama">Select the numbers on the capacitor in order.</string>
+</resources>

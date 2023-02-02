@@ -1,17 +1,17 @@
 package com.gserifatacan.elektrikelektronikhesapmakinesi
 
-import android.content.Context
+import android.R
+import android.annotation.SuppressLint
 import android.graphics.Color
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
+import androidx.fragment.app.Fragment
 import com.google.android.material.snackbar.Snackbar
 import com.gserifatacan.elektrikelektronikhesapmakinesi.databinding.FragmentKirsofAkimBinding
-import com.gserifatacan.elektrikelektronikhesapmakinesi.databinding.FragmentKirsofGerilimBinding
+
 
 class KirsofAkimFragment : Fragment() {
 
@@ -35,6 +35,7 @@ class KirsofAkimFragment : Fragment() {
         _binding = null
     }
 
+    @SuppressLint("StringFormatInvalid")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
@@ -131,7 +132,7 @@ class KirsofAkimFragment : Fragment() {
                 sb.setBackgroundTint(Color.WHITE)
                     .show()
             } else {
-                Toast.makeText(activity, "R1, R2, R3 ve V kutucuklarına direnç değerlerini giriniz", Toast.LENGTH_SHORT)
+                Toast.makeText(activity, "R1, R2, R3 ve V kutucuklarına direnç değerlerini giriniz" , Toast.LENGTH_SHORT)
                     .show()
             }
         }

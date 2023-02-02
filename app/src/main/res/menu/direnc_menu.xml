@@ -4,13 +4,13 @@
     <item
         android:id="@+id/ucBantDirencFragment"
         android:icon="@drawable/ucbantresim"
-        android:title="3 Bantlı Direnç" />
+        android:title="@string/ucbant" />
     <item
         android:id="@+id/dortBantDirencFragment"
         android:icon="@drawable/dortbantresim"
-        android:title="4 Bantlı Direnç" />
+        android:title="@string/dortbant" />
     <item
         android:id="@+id/besBantDirencFragment"
         android:icon="@drawable/besbantresim"
-        android:title="5 Bantlı Direnç" />
+        android:title="@string/besbant" />
 </menu>

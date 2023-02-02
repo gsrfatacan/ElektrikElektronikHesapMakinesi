@@ -2,6 +2,8 @@ package com.gserifatacan.elektrikelektronikhesapmakinesi
 
 //noinspection SuspiciousImport
 import android.R
+import android.annotation.SuppressLint
+import android.graphics.Color
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -9,7 +11,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
+import android.widget.TextView
 import android.widget.Toast
+import androidx.core.content.ContextCompat
 import com.gserifatacan.elektrikelektronikhesapmakinesi.databinding.FragmentLedOnDirencBinding
 
 class LedOnDirenc : Fragment() {
@@ -54,9 +58,68 @@ class LedOnDirenc : Fragment() {
 
         binding.spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener{
 
+            @SuppressLint("SetTextI18n")
             override fun onItemSelected(p0: AdapterView<*>?, p1: View?, indeks: Int, p3: Long) {
 
                 val gelenVeri = ledRenkleri[indeks]
+
+                if (gelenVeri == "Seçiniz"){
+
+                    binding.imageViewLed.setColorFilter(ContextCompat.getColor(requireContext(), com.gserifatacan.elektrikelektronikhesapmakinesi.R.color.yazi), android.graphics.PorterDuff.Mode.SRC_IN);
+                }
+
+                if (gelenVeri == "Kırmızı"){
+                    (binding.spinner.getChildAt(0) as TextView).setBackgroundColor(ContextCompat.getColor(requireContext(), com.gserifatacan.elektrikelektronikhesapmakinesi.R.color.butonkirmizi))
+
+                    (binding.spinner.getChildAt(0) as TextView).setTextColor(Color.WHITE)
+
+                    binding.imageViewLed.setColorFilter(ContextCompat.getColor(requireContext(), com.gserifatacan.elektrikelektronikhesapmakinesi.R.color.butonkirmizi), android.graphics.PorterDuff.Mode.SRC_IN);
+                }
+
+                if (gelenVeri == "Turuncu"){
+                    (binding.spinner.getChildAt(0) as TextView).setBackgroundColor(ContextCompat.getColor(requireContext(), com.gserifatacan.elektrikelektronikhesapmakinesi.R.color.butonturuncu))
+
+                    (binding.spinner.getChildAt(0) as TextView).setTextColor(Color.BLACK)
+
+                    binding.imageViewLed.setColorFilter(ContextCompat.getColor(requireContext(), com.gserifatacan.elektrikelektronikhesapmakinesi.R.color.butonturuncu), android.graphics.PorterDuff.Mode.SRC_IN);
+
+                }
+
+                if (gelenVeri == "Sarı"){
+                    (binding.spinner.getChildAt(0) as TextView).setBackgroundColor(ContextCompat.getColor(requireContext(), com.gserifatacan.elektrikelektronikhesapmakinesi.R.color.butonsari))
+
+                    (binding.spinner.getChildAt(0) as TextView).setTextColor(Color.BLACK)
+
+                    binding.imageViewLed.setColorFilter(ContextCompat.getColor(requireContext(), com.gserifatacan.elektrikelektronikhesapmakinesi.R.color.butonsari), android.graphics.PorterDuff.Mode.SRC_IN);
+
+                }
+
+                if (gelenVeri == "Yeşil"){
+                    (binding.spinner.getChildAt(0) as TextView).setBackgroundColor(ContextCompat.getColor(requireContext(), com.gserifatacan.elektrikelektronikhesapmakinesi.R.color.butonyesil))
+
+                    (binding.spinner.getChildAt(0) as TextView).setTextColor(Color.WHITE)
+
+                    binding.imageViewLed.setColorFilter(ContextCompat.getColor(requireContext(), com.gserifatacan.elektrikelektronikhesapmakinesi.R.color.butonyesil), android.graphics.PorterDuff.Mode.SRC_IN);
+
+                }
+
+                if (gelenVeri == "Mavi"){
+                    (binding.spinner.getChildAt(0) as TextView).setBackgroundColor(ContextCompat.getColor(requireContext(), com.gserifatacan.elektrikelektronikhesapmakinesi.R.color.butonmavi))
+
+                    (binding.spinner.getChildAt(0) as TextView).setTextColor(Color.WHITE)
+
+                    binding.imageViewLed.setColorFilter(ContextCompat.getColor(requireContext(), com.gserifatacan.elektrikelektronikhesapmakinesi.R.color.butonmavi), android.graphics.PorterDuff.Mode.SRC_IN);
+
+                }
+
+                if (gelenVeri == "Beyaz"){
+                    (binding.spinner.getChildAt(0) as TextView).setBackgroundColor(Color.WHITE)
+
+                    (binding.spinner.getChildAt(0) as TextView).setTextColor(Color.BLACK)
+
+                    binding.imageViewLed.setColorFilter(ContextCompat.getColor(requireContext(), com.gserifatacan.elektrikelektronikhesapmakinesi.R.color.butongumus), android.graphics.PorterDuff.Mode.SRC_IN);
+
+                }
 
                 binding.buttonLEDHesapla.setOnClickListener() {
 
@@ -71,6 +134,7 @@ class LedOnDirenc : Fragment() {
                     }
 
                     if (gelenVeri == "Kırmızı") {
+
                         val akim = 0.015
                         val gerilim = 1.8
 

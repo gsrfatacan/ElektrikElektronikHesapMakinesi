@@ -5,33 +5,37 @@
     <item
         android:id="@+id/direncFragment"
         android:icon="@drawable/resistoricon"
-        android:title="Direnç" />
+        android:title="@string/direncbaslik" />
+    <item
+        android:id="@+id/kondansatorFragment"
+        android:icon="@drawable/kondansatoricon"
+        android:title="@string/kondansator" />
     <item
         android:id="@+id/ohmKanunuFragment"
         android:icon="@drawable/omegaicon"
-        android:title="Ohm Kanunu" />
+        android:title="@string/ohmkanunu" />
     <item
         android:id="@+id/seriFragment"
         android:icon="@drawable/s_icon"
-        android:title="Dirençlerin Seri Bağlantısı" />
+        android:title="@string/seribaglidirenc" />
     <item
         android:id="@+id/paralelFragment"
         android:icon="@drawable/p_icon"
-        android:title="Dirençlerin Paralel Bağlantısı" />
+        android:title="@string/paralelbaglidirenc" />
     <item
         android:id="@+id/kirsofGerilimFragment"
         android:icon="@drawable/voltageicon"
-        android:title="Kirşof'un Gerilimler Kanunu" />
+        android:title="@string/kirsofgerilim" />
     <item
         android:id="@+id/kirsofAkimFragment"
         android:icon="@drawable/akimicon"
-        android:title="Kirşof'un Akımlar Kanunu" />
+        android:title="@string/kirsofakim" />
     <item
         android:id="@+id/ledOnDirenc"
         android:icon="@drawable/ledicon"
-        android:title="Led Koruma Direnci" />
+        android:title="@string/ledseri" />
     <item
         android:id="@+id/ayarlarFragment"
         android:icon="@drawable/ayarlaricon"
-        android:title="Ayarlar" />
+        android:title="@string/ayarlar" />
 </menu>

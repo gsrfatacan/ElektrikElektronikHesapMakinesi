@@ -1,6 +1,39 @@
 <resources>
-    <string name="app_name">Elektrik Elektronik Hesap Makinesi</string>
+    <string name="app_name">Elektrik Elektronik</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="a_k_koyu_mod">Açık / Koyu Mod</string>
+    <string name="siyah">Siyah</string>
+    <string name="kahverengi">Kahverengi</string>
+    <string name="kirmizi">Kırmızı</string>
+    <string name="turuncu">Turuncu</string>
+    <string name="sari">Sarı</string>
+    <string name="yesil">Yeşil</string>
+    <string name="mavi">Mavi</string>
+    <string name="mor">Mor</string>
+    <string name="gri">Gri</string>
+    <string name="beyaz">Beyaz</string>
+    <string name="altin">Altın</string>
+    <string name="gumus">Gümüş</string>
+    <string name="hesapla">Hesapla</string>
+    <string name="ucbant">3 Bantlı Direnç</string>
+    <string name="dortbant">4 Bantlı Direnç</string>
+    <string name="besbant">5 Bantlı Direnç</string>
+    <string name="direncbaslik">Direnç Renk Kodu Hesaplama</string>
+    <string name="ohmkanunu">OHM Kanunu</string>
+    <string name="seribaglidirenc">Dirençlerin Seri Bağlantısı</string>
+    <string name="paralelbaglidirenc">Dirençlerin Paralel Bağlantısı</string>
+    <string name="kirsofgerilim">Kirchhoff\'un Gerilim Kanunu</string>
+    <string name="kirsofakim">Kirchhoff\'un Akım Kanunu</string>
+    <string name="ledseri">LED Koruma Direnci</string>
+    <string name="ayarlar">Ayarlar</string>
+    <string name="ledrenk">LED Rengini Seçiniz</string>
+    <string name="ledkaynakgerilim">Kaynak Gerilimini Giriniz</string>
+    <string name="direncdegeri">Direnç değerini giriniz (Ω)</string>
+    <string name="gerilimdegeri">Gerilim değerini giriniz (V)</string>
+    <string name="akimdegeri">Akım değerini giriniz (A)</string>
+    <string name="menu">Menü</string>
+    <string name="paylas">Uygulamayı Paylaş</string>
+    <string name="degerlendir">Uygulamayı Değerlendir</string>
+    <string name="kirsofakimuyari">R1, R2, R3 ve V kutucuklarına direnç değerlerini giriniz</string>
+    <string name="kondansator">Kondansatör</string>
+    <string name="kondansatorAciklama">Kondansatör üzerindeki rakamları sırasıyla seçiniz.</string>
 </resources>
