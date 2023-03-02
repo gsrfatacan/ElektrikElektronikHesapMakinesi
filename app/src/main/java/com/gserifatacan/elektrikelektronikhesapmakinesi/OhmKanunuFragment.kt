@@ -10,7 +10,6 @@ import android.view.ViewGroup
 import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
 import com.gserifatacan.elektrikelektronikhesapmakinesi.databinding.FragmentOhmKanunuBinding
-import com.gserifatacan.elektrikelektronikhesapmakinesi.databinding.FragmentUcBantDirencBinding
 
 fun Fragment.hideKeyboard() {
     val imm = context?.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager

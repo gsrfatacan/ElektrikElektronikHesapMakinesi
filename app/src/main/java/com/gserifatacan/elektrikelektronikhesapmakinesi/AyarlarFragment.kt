@@ -5,12 +5,10 @@ import android.net.Uri
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
-import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
+import androidx.appcompat.app.AppCompatDelegate
 import com.gserifatacan.elektrikelektronikhesapmakinesi.databinding.FragmentAyarlarBinding
-import com.gserifatacan.elektrikelektronikhesapmakinesi.databinding.FragmentDirencBinding
 
 class AyarlarFragment : Fragment() {
     private var _binding: FragmentAyarlarBinding? = null
@@ -52,6 +50,14 @@ class AyarlarFragment : Fragment() {
                 Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=$packageName"))
             startActivity(intent)
             return@setOnClickListener
+        }
+
+        binding.themeSwitch.setOnCheckedChangeListener { _, checkedId ->
+            when (checkedId) {
+                true -> AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+
+                false -> AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+            }
         }
     }
 }

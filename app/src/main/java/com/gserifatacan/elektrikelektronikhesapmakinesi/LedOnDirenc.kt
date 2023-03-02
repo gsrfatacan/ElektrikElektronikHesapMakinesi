@@ -64,7 +64,6 @@ class LedOnDirenc : Fragment() {
                 val gelenVeri = ledRenkleri[indeks]
 
                 if (gelenVeri == "Seçiniz"){
-
                     binding.imageViewLed.setColorFilter(ContextCompat.getColor(requireContext(), com.gserifatacan.elektrikelektronikhesapmakinesi.R.color.yazi), android.graphics.PorterDuff.Mode.SRC_IN);
                 }
 

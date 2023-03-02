@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import com.gserifatacan.elektrikelektronikhesapmakinesi.databinding.FragmentParalelBinding
-import com.gserifatacan.elektrikelektronikhesapmakinesi.databinding.FragmentSeriBinding
 
 class ParalelFragment : Fragment() {
 

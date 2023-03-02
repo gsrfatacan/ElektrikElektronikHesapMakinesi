@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="@string/ledseri"
-        android:textColor="@color/buton"
+        android:textColor="@color/renkli"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -48,13 +48,13 @@
 
     <Button
         android:id="@+id/buttonLEDHesapla"
-        android:layout_width="180dp"
-        android:layout_height="60dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
         android:layout_marginTop="50dp"
-        android:backgroundTint="@color/buton"
+        android:backgroundTint="@color/mavisari"
         android:text="@string/hesapla"
-        android:textSize="20sp"
-        app:cornerRadius="15dp"
+        android:textSize="14sp"
+        app:cornerRadius="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -91,6 +91,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
+        android:gravity="center"
         android:textColor="@color/renkli"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -102,13 +103,15 @@
         android:id="@+id/textViewAciklama"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:textAlignment="center"
         android:textColor="@color/yazi"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textVievSonuc" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonLEDHesapla" />
 
     <ImageView
         android:id="@+id/imageViewLed"

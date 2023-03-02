@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.NavigationUI
-import com.gserifatacan.elektrikelektronikhesapmakinesi.databinding.ActivityMainBinding.inflate
 import com.gserifatacan.elektrikelektronikhesapmakinesi.databinding.FragmentDirencBinding
 
 class DirencFragment : Fragment() {

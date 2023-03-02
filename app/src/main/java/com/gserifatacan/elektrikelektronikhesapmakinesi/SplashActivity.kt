@@ -1,12 +1,13 @@
 package com.gserifatacan.elektrikelektronikhesapmakinesi
 
+import android.annotation.SuppressLint
 import android.content.Intent
-import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.gserifatacan.elektrikelektronikhesapmakinesi.databinding.ActivitySplashBinding
 
+@SuppressLint("CustomSplashScreen")
 class SplashActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySplashBinding
 
@@ -17,7 +18,7 @@ class SplashActivity : AppCompatActivity() {
 
         binding.apply {
             imageSplash.alpha = 0f
-            imageSplash.animate().setDuration(1000).alpha(1f).withEndAction {
+            imageSplash.animate().setDuration(1500).alpha(1f).withEndAction {
                 val intent = Intent(this@SplashActivity, MainActivity::class.java)
                 startActivity(intent)
                 binding.progressBar.visibility = View.VISIBLE

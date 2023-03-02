@@ -36,4 +36,5 @@
     <string name="kirsofakimuyari">Enter the resistance values in the R1, R2, R3 and V boxes.</string>
     <string name="kondansator">Capasitor</string>
     <string name="kondansatorAciklama">Select the numbers on the capacitor in order.</string>
+    <string name="karanlikMod">Light/Dark Theme</string>
 </resources>

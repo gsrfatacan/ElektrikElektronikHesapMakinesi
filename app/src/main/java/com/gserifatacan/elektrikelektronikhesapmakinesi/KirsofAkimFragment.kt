@@ -1,6 +1,5 @@
 package com.gserifatacan.elektrikelektronikhesapmakinesi
 
-import android.R
 import android.annotation.SuppressLint
 import android.graphics.Color
 import android.os.Bundle

@@ -1,7 +1,6 @@
 package com.gserifatacan.elektrikelektronikhesapmakinesi
 
 import android.annotation.SuppressLint
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -67,6 +66,7 @@ class MainActivity : AppCompatActivity() {
         binding.navigationView.inflateHeaderView(R.layout.navigation_baslik)
     }
 
+    @Deprecated("Deprecated in Java")
     override fun onBackPressed() {
         if (binding.drawer.isDrawerOpen(GravityCompat.START)) {
             binding.drawer.closeDrawer(GravityCompat.START)
@@ -81,27 +81,3 @@ class MainActivity : AppCompatActivity() {
         return true
     }
 }
-
-
-        /*when (item.itemId) {
-            com.google.android.gms.ads.R.id.actionRate -> {
-                val packageName = "com.gserifatacan.direnchesapmakinesi"
-                val intent = Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=$packageName"))
-                startActivity(intent)
-                return true
-            }
-        }
-
-        when (item.itemId) {
-            com.google.android.gms.ads.R.id.actionInfo -> {
-                Toast.makeText(
-                    applicationContext,
-                    "Gürkan Şerif ATACAN tarafından geliştirildi.",
-                    Toast.LENGTH_LONG
-                ).show()
-                return true
-            }
-        }
-        return super.onOptionsItemSelected(item)
-    }
-}*/

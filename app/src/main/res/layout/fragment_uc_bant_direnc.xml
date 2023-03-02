@@ -436,13 +436,13 @@
 
         <Button
             android:id="@+id/buttonHesapla"
-            android:layout_width="160dp"
+            android:layout_width="150dp"
             android:layout_height="50dp"
             android:layout_marginTop="10dp"
             android:text="@string/hesapla"
             android:textColor="@color/butonyazi"
-            app:backgroundTint="@color/buton"
-            app:cornerRadius="15dp"
+            app:backgroundTint="@color/mavisari"
+            app:cornerRadius="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
