@@ -31,6 +31,10 @@
         android:icon="@drawable/akimicon"
         android:title="@string/kirsofakim" />
     <item
+        android:id="@+id/alternatifAkimDevreleri"
+        android:icon="@drawable/acresim"
+        android:title="@string/alternatifakimdevreleri" />
+    <item
         android:id="@+id/ledOnDirenc"
         android:icon="@drawable/ledicon"
         android:title="@string/ledseri" />

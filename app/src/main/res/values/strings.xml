@@ -37,4 +37,11 @@
     <string name="kondansator">Kondansatör</string>
     <string name="kondansatorAciklama">Kondansatör üzerindeki rakamları sırasıyla seçiniz.</string>
     <string name="karanlikMod">Açık/Koyu Tema</string>
+    <string name="serirl">Seri Direnç-Bobin Devresi</string>
+    <string name="serirc">Seri Direnç-Kondansatör Devresi</string>
+    <string name="alternatifakimdevreleri">Alternatif Akım Devreleri</string>
+    <string name="serirlc">Seri Direnç-Bobin-Kondansatör Devresi</string>
+
+
+
 </resources>

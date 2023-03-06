@@ -37,4 +37,12 @@
     <string name="kondansator">Capasitor</string>
     <string name="kondansatorAciklama">Select the numbers on the capacitor in order.</string>
     <string name="karanlikMod">Light/Dark Theme</string>
+    <string name="serirl">Serial Resistor-Inductor Circuit</string>
+    <string name="serirc">Serial Resistor-Capasitor Circuit</string>
+    <string name="alternatifakimdevreleri">Alternative Current Circuits</string>
+    <string name="serirlc">Serial Resistor-Inductor-Capasitor Circuit</string>
+
+
+
+
 </resources>

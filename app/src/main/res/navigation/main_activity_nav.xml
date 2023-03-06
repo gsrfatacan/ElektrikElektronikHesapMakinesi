@@ -50,4 +50,9 @@
         android:name="com.gserifatacan.elektrikelektronikhesapmakinesi.AyarlarFragment"
         android:label="fragment_ayarlar"
         tools:layout="@layout/fragment_ayarlar" />
+    <fragment
+        android:id="@+id/alternatifAkimDevreleri"
+        android:name="com.gserifatacan.elektrikelektronikhesapmakinesi.AlternatifAkimDevreleri"
+        android:label="fragment_alternatif_akim_devreleri"
+        tools:layout="@layout/fragment_alternatif_akim_devreleri" />
 </navigation>
