@@ -41,7 +41,9 @@
     <string name="serirc">Seri Direnç-Kondansatör Devresi</string>
     <string name="alternatifakimdevreleri">Alternatif Akım Devreleri</string>
     <string name="serirlc">Seri Direnç-Bobin-Kondansatör Devresi</string>
-
+    <string name="paralelrl">Paralel Direnç-Bobin Devresi</string>
+    <string name="paralelrc">Paralel Direnç-Kondansatör Devresi</string>
+    <string name="paralelrlc">Paralel Direnç-Bobin-Kondansatör Devresi</string>
 
 
 </resources>

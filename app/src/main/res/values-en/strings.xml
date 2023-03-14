@@ -41,6 +41,9 @@
     <string name="serirc">Serial Resistor-Capasitor Circuit</string>
     <string name="alternatifakimdevreleri">Alternative Current Circuits</string>
     <string name="serirlc">Serial Resistor-Inductor-Capasitor Circuit</string>
+    <string name="paralelrl">Parallel Resistor-Inductor Circuit</string>
+    <string name="paralelrc">Parallel Resistor-Capasitor Circuit</string>
+    <string name="paralelrlc">Parallel Resistor-Inductor-Capasitor Circuit</string>
 
 
 
