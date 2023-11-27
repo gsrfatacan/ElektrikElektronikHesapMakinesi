@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".ParalelRC">
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/paralelrc"
+        android:textAlignment="center"
+        android:textColor="@color/renkli"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonParalelRCHesapla"
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/mavisari"
+        android:foreground="@drawable/hesapla"
+        android:foregroundGravity="center"
+        android:foregroundTint="@color/background"
+        android:textAlignment="center"
+        app:cornerRadius="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextParalelRCf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editTextParalelRCR" />
+
+    <EditText
+        android:id="@+id/editTextParalelRCR"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Direnç değerini giriniz (Ω)"
+        android:inputType="number|numberDecimal"
+        android:textAlignment="center"
+        android:textColorHint="@color/renkli"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonParalelRCHesapla"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerKondansator" />
+
+    <EditText
+        android:id="@+id/editTextParalelRCV"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Gerilim değerini giriniz (V)"
+        android:inputType="number|numberDecimal"
+        android:textAlignment="center"
+        android:textColorHint="@color/renkli"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonParalelRCHesapla"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextParalelRCC" />
+
+    <EditText
+        android:id="@+id/editTextParalelRCf"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Frekans değerini giriniz (Hz)"
+        android:inputType="number|numberDecimal"
+        android:textAlignment="center"
+        android:textColorHint="@color/renkli"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonParalelRCHesapla"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextParalelRCV" />
+
+    <TextView
+        android:id="@+id/textViewParalelRCXC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/yazi"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextParalelRCf" />
+
+    <TextView
+        android:id="@+id/textViewParalelRCZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:textColor="@color/yazi"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextParalelRCf" />
+
+    <TextView
+        android:id="@+id/textViewParalelRCiR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:textAlignment="textEnd"
+        android:textColor="@color/yazi"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextParalelRCf" />
+
+    <TextView
+        android:id="@+id/textViewParelelRCiC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:textAlignment="textEnd"
+        android:textColor="@color/yazi"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextParalelRCf" />
+
+    <TextView
+        android:id="@+id/textViewParalelRCi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:textAlignment="center"
+        android:textColor="@color/yazi"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextParalelRCf" />
+
+    <Spinner
+        android:id="@+id/spinnerKondansator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:spinnerMode="dropdown"
+        android:textAlignment="gravity"
+        app:layout_constraintEnd_toStartOf="@+id/buttonParalelRCHesapla"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <EditText
+        android:id="@+id/editTextParalelRCC"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Kondansatör değerini giriniz"
+        android:inputType="number|numberDecimal"
+        android:textAlignment="center"
+        android:textColorHint="@color/renkli"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonParalelRCHesapla"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextParalelRCR" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-1879393212966846/1948543313"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

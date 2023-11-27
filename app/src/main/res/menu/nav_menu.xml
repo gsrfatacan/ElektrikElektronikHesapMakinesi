@@ -15,25 +15,25 @@
         android:icon="@drawable/omegaicon"
         android:title="@string/ohmkanunu" />
     <item
-        android:id="@+id/seriFragment"
-        android:icon="@drawable/s_icon"
-        android:title="@string/seribaglidirenc" />
+        android:id="@+id/direncBaglantiFragment"
+        android:icon="@drawable/direnc"
+        android:title="@string/direnc_baglanti" />
     <item
-        android:id="@+id/paralelFragment"
-        android:icon="@drawable/p_icon"
-        android:title="@string/paralelbaglidirenc" />
-    <item
-        android:id="@+id/kirsofGerilimFragment"
-        android:icon="@drawable/voltageicon"
-        android:title="@string/kirsofgerilim" />
-    <item
-        android:id="@+id/kirsofAkimFragment"
-        android:icon="@drawable/akimicon"
-        android:title="@string/kirsofakim" />
+        android:id="@+id/kirsofFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/kirsof"
+        android:title="@string/kirsof" />
     <item
         android:id="@+id/alternatifAkimDevreleri"
         android:icon="@drawable/acresim"
         android:title="@string/alternatifakimdevreleri" />
+    <item
+        android:id="@+id/alternatifAkimDegerleriFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/ac"
+        android:title="@string/alternatifakimdeğerleri" />
     <item
         android:id="@+id/ledOnDirenc"
         android:icon="@drawable/ledicon"

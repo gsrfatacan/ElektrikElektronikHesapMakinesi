@@ -112,9 +112,9 @@ class KirsofGerilimFragment : Fragment() {
                     binding.textViewKirsofGerilimVR31.text = ("VR3=$v3TamSayi V")
                 }
 
-                val sb = Snackbar.make(mesaj, "V = VR1 + VR2 + VR3 olduğunu unutma!", Snackbar.LENGTH_INDEFINITE)
+                val sb = Snackbar.make(mesaj, R.string.kirsofgerilimhatirlatma, Snackbar.LENGTH_INDEFINITE)
 
-                sb.setAction("Tamam"){
+                sb.setAction(R.string.tamam){
 
                     }
                 sb.setActionTextColor(Color.BLUE)
@@ -122,7 +122,7 @@ class KirsofGerilimFragment : Fragment() {
                 sb.setBackgroundTint(Color.WHITE)
                     .show()
             }else{
-                Toast.makeText(activity, "R1, R2, R3 ve V kutucuklarına direnç değerlerini giriniz", Toast.LENGTH_SHORT).show()
+                Toast.makeText(activity, R.string.kirsofgerilimuyari, Toast.LENGTH_SHORT).show()
             }
         }
     }

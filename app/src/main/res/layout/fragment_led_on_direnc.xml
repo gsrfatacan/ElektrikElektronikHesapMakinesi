@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     tools:context=".LedOnDirenc">
 
     <TextView
@@ -12,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="@string/ledseri"
-        android:textColor="@color/renkli"
+        android:textColor="@color/red"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -24,6 +25,7 @@
         android:layout_width="150dp"
         android:layout_height="30dp"
         android:layout_marginTop="30dp"
+        android:backgroundTint="@color/blue"
         android:foregroundGravity="center"
         android:spinnerMode="dropdown"
         android:stateListAnimator="@anim/nav_default_enter_anim"
@@ -48,13 +50,13 @@
 
     <Button
         android:id="@+id/buttonLEDHesapla"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:backgroundTint="@color/mavisari"
+        android:backgroundTint="@color/yazi"
         android:text="@string/hesapla"
-        android:textSize="14sp"
-        app:cornerRadius="20dp"
+        android:textSize="20sp"
+        app:cornerRadius="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"

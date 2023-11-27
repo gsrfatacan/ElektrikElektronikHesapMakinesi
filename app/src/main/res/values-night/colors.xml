@@ -14,11 +14,11 @@
     <color name="yazi2">#000000</color>
     <color name="resimSeriParalel">#8A969C</color>
     <color name="direncnavbar">#FFFFFF</color>
-    <color name="background">#292929</color>
-    <color name="renkli">#FD0909</color>
+    <color name="background">#000000</color>
+    <color name="renkli">#ff2d55</color>
     <color name="butonsecim">#67FBEB</color>
     <color name="mavisari">#FFEB3B</color>
-    <color name="butonsiyah">#000000</color>
+    <color name="butonsiyah">#202020</color>
     <color name="butonkahve">#964B00</color>
     <color name="butonkirmizi">#F44336</color>
     <color name="butonturuncu">#FF9800</color>
@@ -30,4 +30,32 @@
     <color name="butonbeyaz">#FFFFFF</color>
     <color name="butonaltin">#D4AF37</color>
     <color name="butongumus">#C0C0C0</color>
+    <color name="sarimavi">#007aff</color>
+    <color name="acilis">#FFEB3B</color>
+    <color name="acikgri">#1E1E1E</color>
+    <color name="mavi">#007aff</color>
+
+    <color name="red">#ff443a</color>
+    <color name="orange">#ff9d0a</color>
+    <color name="yellow">#ffd60a</color>
+    <color name="green">#30d158</color>
+    <color name="mint">#63e6e2</color>
+    <color name="teal">#40c8e0</color>
+    <color name="cyan">#64d3ff</color>
+    <color name="blue">#0a84ff</color>
+    <color name="indigo">#5e5ce6</color>
+    <color name="purple">#bf5af2</color>
+    <color name="pink">#ff375f</color>
+    <color name="brown">#ac8e68</color>
+
+    <color name="gray">#8e8e93</color>
+    <color name="gray2">#636366</color>
+    <color name="gray3">#48484a</color>
+    <color name="gray4">#3a3a3c</color>
+    <color name="gray5">#2c2c2e</color>
+    <color name="gray6">#1c1c27</color>
+
+    <color name="black_white">#ffffff</color>
+    <color name="white_gray">#2c2c2e</color>
+    <color name="gray_black">#000000</color>
 </resources>

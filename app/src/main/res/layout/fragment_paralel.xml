@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     tools:context=".ParalelFragment">
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="390dp"
-        android:layout_height="280dp"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
         android:layout_marginTop="20dp"
         android:src="@drawable/paralelbaglantiresim"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,15 +20,14 @@
 
     <EditText
         android:id="@+id/editTextPR1"
-        android:layout_width="45dp"
-        android:layout_height="45dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_marginTop="50dp"
         android:ems="10"
         android:hint="R1"
         android:inputType="number"
         android:textAlignment="center"
-        android:textColor="@color/yazi"
-        android:textColorHint="@color/yazi"
+        android:textColorHint="@color/renkli"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -36,15 +36,14 @@
 
     <EditText
         android:id="@+id/editTextPR2"
-        android:layout_width="45dp"
-        android:layout_height="45dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_marginTop="30dp"
         android:ems="10"
         android:hint="R2"
         android:inputType="number"
         android:textAlignment="center"
-        android:textColor="@color/yazi"
-        android:textColorHint="@color/yazi"
+        android:textColorHint="@color/renkli"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -55,7 +54,7 @@
         android:id="@+id/buttonParalelHesapla"
         android:layout_width="150dp"
         android:layout_height="50dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:backgroundTint="@color/mavisari"
         android:text="@string/hesapla"
         android:textColor="@color/butonyazi"
@@ -67,15 +66,14 @@
 
     <EditText
         android:id="@+id/editTextPR3"
-        android:layout_width="45dp"
-        android:layout_height="45dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_marginTop="35dp"
         android:ems="10"
         android:hint="R3"
         android:inputType="number"
         android:textAlignment="center"
-        android:textColor="@color/yazi"
-        android:textColorHint="@color/yazi"
+        android:textColorHint="@color/renkli"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -86,10 +84,10 @@
         android:id="@+id/textViewParalel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
         android:textAlignment="center"
         android:textColor="@color/yazi"
         android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView15"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -130,5 +128,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/buttonGeri"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/geriok"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,15 +9,15 @@
     <color name="white">#FFFFFFFF</color>
     <color name="yazi">#000000</color>
     <color name="buton">#4CAF50</color>
-    <color name="resimOhm"></color>
+    <color name="resimOhm" />
     <color name="butonyazi">#FFFFFFFF</color>
     <color name="yazi2">#000000</color>
-    <color name="resimSeriParalel"></color>
+    <color name="resimSeriParalel" />
     <color name="direncnavbar">#000000</color>
     <color name="background">#FFFFFF</color>
-    <color name="renkli">#FD0909</color>
+    <color name="renkli">#ff2d55</color>
     <color name="butonsecim">#67FBEB</color>
-    <color name="mavisari">#2196F3</color>
+    <color name="mavisari">#007aff</color>
     <color name="butonsiyah">#000000</color>
     <color name="butonkahve">#964B00</color>
     <color name="butonkirmizi">#F44336</color>
@@ -30,4 +30,32 @@
     <color name="butonbeyaz">#FFFFFF</color>
     <color name="butonaltin">#D4AF37</color>
     <color name="butongumus">#C0C0C0</color>
+    <color name="sarimavi">#FFEB3B</color>
+    <color name="acilis">#2196F3</color>
+    <color name="acikgri">#E6E6E6</color>
+    <color name="mavi">#007aff</color>
+
+    <color name="red">#ff3a30</color>
+    <color name="orange">#ff9500</color>
+    <color name="yellow">#ffcc00</color>
+    <color name="green">#34c759</color>
+    <color name="mint">#00c7bd</color>
+    <color name="teal">#30b0c7</color>
+    <color name="cyan">#32ade6</color>
+    <color name="blue">#007bff</color>
+    <color name="indigo">#5856d6</color>
+    <color name="purple">#af52de</color>
+    <color name="pink">#ff2d55</color>
+    <color name="brown">#a2845e</color>
+
+    <color name="gray">#8e8e93</color>
+    <color name="gray2">#aeaeb2</color>
+    <color name="gray3">#c7c7cc</color>
+    <color name="gray4">#d1d1d6</color>
+    <color name="gray5">#e5e5ea</color>
+    <color name="gray6">#f2f2f7</color>
+
+    <color name="black_white">#000000</color>
+    <color name="white_gray">#ffffff</color>
+    <color name="gray_black">#f2f2f7</color>
 </resources>

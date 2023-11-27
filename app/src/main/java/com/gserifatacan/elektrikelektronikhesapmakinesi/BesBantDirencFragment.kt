@@ -1339,7 +1339,7 @@ class BesBantDirencFragment : Fragment() {
                     }
                 }
             }else if (gelenSayi1 == null && gelenSayi2 == null && gelenSayi3 == null && gelenSayi4 == null && gelenSayi5 == null){
-                Toast.makeText(activity,"Lütfen sırayla beş renk seçimi yapınız", Toast.LENGTH_SHORT).show()
+                Toast.makeText(activity,R.string.besbantuyari, Toast.LENGTH_SHORT).show()
             }
             gelenSayi1 = 0
             gelenSayi2 = 0

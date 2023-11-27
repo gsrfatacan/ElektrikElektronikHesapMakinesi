@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     tools:context=".KirsofGerilimFragment">
 
     <TextView
@@ -21,9 +22,9 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="25dp"
         android:src="@drawable/kirsofgerilimresim"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -32,60 +33,64 @@
 
     <EditText
         android:id="@+id/editTextKirsofR1"
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="90dp"
-        android:layout_marginTop="35dp"
-        android:layout_marginEnd="300dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="55dp"
         android:ems="10"
         android:gravity="center"
         android:hint="R1"
         android:inputType="number"
         android:textAlignment="center"
         android:textColor="@color/yazi"
-        android:textColorHint="@color/yazi"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textColorHint="@color/renkli"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/editTextKirsofR2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <EditText
         android:id="@+id/editTextKirsofR2"
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="180dp"
-        android:layout_marginTop="35dp"
-        android:layout_marginEnd="190dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="2dp"
         android:ems="10"
         android:gravity="center"
         android:hint="R2"
         android:inputType="number"
+        android:textAlignment="center"
         android:textColor="@color/yazi"
-        android:textColorHint="@color/yazi"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textColorHint="@color/renkli"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/editTextKirsofR3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/editTextKirsofR1"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <EditText
         android:id="@+id/editTextKirsofR3"
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="240dp"
-        android:layout_marginTop="35dp"
-        android:layout_marginEnd="50dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="2dp"
         android:ems="10"
         android:gravity="center"
         android:hint="R3"
         android:inputType="number"
+        android:textAlignment="center"
         android:textColor="@color/yazi"
-        android:textColorHint="@color/yazi"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textColorHint="@color/renkli"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/editTextKirsofR2"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <EditText
         android:id="@+id/editTextKirsofGerilim"
-        android:layout_width="45dp"
-        android:layout_height="45dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_marginStart="70dp"
         android:layout_marginTop="110dp"
         android:layout_marginEnd="90dp"
@@ -93,8 +98,8 @@
         android:hint="V"
         android:inputType="number"
         android:textAlignment="center"
-        android:textColor="@color/yazi"
-        android:textColorHint="@color/yazi"
+        android:textColorHint="@color/renkli"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextKirsofR2" />
@@ -104,7 +109,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="90dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="35dp"
         android:layout_marginEnd="300dp"
         android:textAlignment="center"
         android:textColor="@color/renkli"
@@ -118,7 +123,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="180dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="35dp"
         android:layout_marginEnd="190dp"
         android:textAlignment="center"
         android:textColor="@color/renkli"
@@ -132,7 +137,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="240dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="35dp"
         android:layout_marginEnd="50dp"
         android:textAlignment="center"
         android:textColor="@color/renkli"
@@ -145,13 +150,14 @@
         android:id="@+id/textViewKirsofGerilimI"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
         android:text="Akım"
         android:textColor="@color/yazi"
+        android:textIsSelectable="true"
         android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewKirsofGerilimIR1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/textViewKirsofGerilimIRes"
+        app:layout_constraintStart_toEndOf="@+id/constraintLayout"
         app:layout_constraintTop_toBottomOf="@+id/buttonKirsofGerilimHesapla" />
 
     <TextView
@@ -161,11 +167,13 @@
         android:layout_marginTop="10dp"
         android:text="VR1"
         android:textColor="@color/yazi"
+        android:textIsSelectable="true"
         android:textSize="20sp"
-        app:layout_constraintEnd_toStartOf="@+id/textViewKirsofGerilimIR1"
+        app:layout_constraintBottom_toTopOf="@+id/textViewKirsofGerilimVR2"
+        app:layout_constraintEnd_toStartOf="@+id/constraintLayout"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewKirsofGerilimI" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewKirsofGerilimIRes" />
 
     <TextView
         android:id="@+id/textViewKirsofGerilimVR2"
@@ -174,8 +182,10 @@
         android:layout_marginTop="10dp"
         android:text="VR2"
         android:textColor="@color/yazi"
+        android:textIsSelectable="true"
         android:textSize="20sp"
-        app:layout_constraintEnd_toStartOf="@+id/textViewKirsofGerilimIR2"
+        app:layout_constraintBottom_toTopOf="@+id/textViewKirsofGerilimVR3"
+        app:layout_constraintEnd_toStartOf="@+id/constraintLayout"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewKirsofGerilimVR1" />
@@ -187,8 +197,10 @@
         android:layout_marginTop="10dp"
         android:text="VR3"
         android:textColor="@color/yazi"
+        android:textIsSelectable="true"
         android:textSize="20sp"
-        app:layout_constraintEnd_toStartOf="@+id/textViewKirsofGerilimIR3"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
+        app:layout_constraintEnd_toStartOf="@+id/constraintLayout"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewKirsofGerilimVR2" />
@@ -211,12 +223,13 @@
         android:id="@+id/textViewKirsofGerilimIRes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
         android:gravity="center"
         android:text="Reş"
         android:textColor="@color/yazi"
+        android:textIsSelectable="true"
         android:textSize="20sp"
-        app:layout_constraintEnd_toStartOf="@+id/textViewKirsofGerilimI"
+        app:layout_constraintBottom_toTopOf="@+id/textViewKirsofGerilimVR1"
+        app:layout_constraintEnd_toStartOf="@+id/constraintLayout"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonKirsofGerilimHesapla" />
@@ -229,11 +242,13 @@
         android:gravity="center"
         android:text="IR1"
         android:textColor="@color/yazi"
+        android:textIsSelectable="true"
         android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewKirsofGerilimIR2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/textViewKirsofGerilimVR1"
-        app:layout_constraintTop_toBottomOf="@+id/textViewKirsofGerilimIRes" />
+        app:layout_constraintStart_toEndOf="@+id/constraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/textViewKirsofGerilimI" />
 
     <TextView
         android:id="@+id/textViewKirsofGerilimIR2"
@@ -243,10 +258,12 @@
         android:gravity="center"
         android:text="IR2"
         android:textColor="@color/yazi"
+        android:textIsSelectable="true"
         android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewKirsofGerilimIR3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/textViewKirsofGerilimVR2"
+        app:layout_constraintStart_toEndOf="@+id/constraintLayout"
         app:layout_constraintTop_toBottomOf="@+id/textViewKirsofGerilimIR1" />
 
     <TextView
@@ -257,15 +274,17 @@
         android:gravity="center"
         android:text="IR3"
         android:textColor="@color/yazi"
+        android:textIsSelectable="true"
         android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/textViewKirsofGerilimVR3"
+        app:layout_constraintStart_toEndOf="@+id/constraintLayout"
         app:layout_constraintTop_toBottomOf="@+id/textViewKirsofGerilimIR2" />
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="60dp"
+        android:layout_width="0dp"
         android:layout_height="20dp"
         android:layout_marginBottom="10dp"
         android:src="@drawable/voltageicon"
@@ -273,5 +292,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonKirsofGerilimHesapla">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

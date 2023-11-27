@@ -33,7 +33,6 @@
     <string name="menu">Menü</string>
     <string name="paylas">Uygulamayı Paylaş</string>
     <string name="degerlendir">Uygulamayı Değerlendir</string>
-    <string name="kirsofakimuyari">R1, R2, R3 ve V kutucuklarına direnç değerlerini giriniz</string>
     <string name="kondansator">Kondansatör</string>
     <string name="kondansatorAciklama">Kondansatör üzerindeki rakamları sırasıyla seçiniz.</string>
     <string name="karanlikMod">Açık/Koyu Tema</string>
@@ -44,6 +43,49 @@
     <string name="paralelrl">Paralel Direnç-Bobin Devresi</string>
     <string name="paralelrc">Paralel Direnç-Kondansatör Devresi</string>
     <string name="paralelrlc">Paralel Direnç-Bobin-Kondansatör Devresi</string>
+    <string name="tamam">Tamam</string>
+    <string name="seciniz">Seçiniz</string>
+    <string name="toolbar">Elektrik Elektronik</string>
 
+    <string name="kirsofgerilimhatirlatma">V = VR1 + VR2 + VR3 olduğunu unutma!</string>
+    <string name="kirsofgerilimuyari">R1, R2, R3 ve V kutucuklarına değerler giriniz</string>
+    <string name="kirsofakimhatirlatma">V = VR1 + VR2 + VR3 olduğunu unutma!</string>
+    <string name="kirsofakimuyari">R1, R2, R3 ve V kutucuklarına değerler giriniz</string>
+    <string name="kirsof">Kirşof Kanunları</string>
 
+    <string name="besbantuyari">Lütfen sırayla beş renk seçimi yapınız</string>
+    <string name="dortbantuyari">Lütfen sırayla dört renk seçimi yapınız</string>
+    <string name="ucbantuyari">Lütfen sırayla üç renk seçimi yapınız</string>
+
+    <string name="ohmkanunuuyari1">Lütfen en fazla iki adet değer giriniz.</string>
+    <string name="ohmkanunuuyari2">Lütfen en az iki adet değer giriniz.</string>
+
+    <string name="direncdegerisonuc">Direnç Değeri</string>
+    <string name="akimdegerisonuc">Akım Değeri</string>
+    <string name="gerilimdegerisonuc">Gerilim Değeri</string>
+
+    <string name="direncbaglantiuyari">R1, R2 ve R3 kutucuklarına direnç değerlerini giriniz</string>
+    <string name="direnc_baglanti">Dirençlerin Bağlantıları</string>
+
+    <string name="rcuyari">R, C, V ve f kutucuklarına direnç değerlerini giriniz</string>
+    <string name="rluyari">R, L, V ve f kutucuklarına direnç değerlerini giriniz</string>
+    <string name="rlcuyari">R, L, C, V ve f kutucuklarına direnç değerlerini giriniz</string>
+
+    <string name="kondansatoruyari">Lütfen Kondansatör üzerinde yer alan rakamları sırasıyla seçiniz.</string>
+    <string name="leduyari">Lütfen LED rengini seçiniz.</string>
+
+    <string name="paralelrcuyari">Lütfen kondansatörün birimini seçiniz</string>
+    <string name="paralelrluyari">Lütfen bobinin birimini seçiniz</string>
+    <string name="reklam">Reklamları kaldır.</string>
+
+    <string name="alternatif_akimin_max_degerini_giriniz">Lütfen gerilimin maksimum değerini giriniz.</string>
+    <string name="etkin_deger">Etkin Değer</string>
+    <string name="ortalama_deger">Ortalama Değer</string>
+    <string name="ani_deger">Ani değer</string>
+    <string name="ac_deger_uyari">Lütfen gerilimin maksimum değerini giriniz.</string>
+    <string name="alternatifakimdeğerleri">Alternatif Akımın Değerleri</string>
+    <string name="ani_deger_süre">Zamanı giriniz (ms)</string>
+    <string name="ani_deger_frekans">Frekansı giriniz (Hz)</string>
+    <string name="ani_deger_uyari">Lütfen süreyi ve frekansı giriniz.</string>
+    <string name="iptal">İptal</string>
 </resources>

@@ -36,7 +36,7 @@ class KondansatorFragment : Fragment() {
                 binding.textViewKondansatorSonuc.text = "$cevir mF"
             }
         }else{
-            Toast.makeText(activity, "Lütfen Kondansatör üzerinde yer alan rakamları sırasıyla seçiniz.", Toast.LENGTH_SHORT).show()
+            Toast.makeText(activity, com.gserifatacan.elektrikelektronikhesapmakinesi.R.string.kondansatoruyari, Toast.LENGTH_SHORT).show()
         }
     }
 

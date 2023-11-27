@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     tools:context=".OhmKanunuFragment">
 
     <EditText
@@ -73,10 +74,10 @@
         android:id="@+id/textViewOhmSonuc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
         android:fontFamily="sans-serif-light"
         android:textColor="@color/yazi"
         android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView10"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -84,8 +85,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
         android:layout_marginTop="10dp"
         android:src="@drawable/ohmkanunuformulresim"
         app:layout_constraintEnd_toEndOf="parent"
@@ -95,8 +96,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
         android:layout_marginTop="10dp"
         android:src="@drawable/ohmkanunudevreresim"
         app:layout_constraintEnd_toStartOf="@+id/imageView"

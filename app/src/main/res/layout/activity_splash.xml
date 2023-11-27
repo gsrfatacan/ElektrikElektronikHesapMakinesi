@@ -11,13 +11,15 @@
         android:id="@+id/imageSplash"
         android:layout_width="150dp"
         android:layout_height="150dp"
+        android:foregroundGravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.5"
-        app:srcCompat="@drawable/acilisicon" />
+        app:srcCompat="@drawable/direnc"
+        app:tint="@color/background" />
 
     <ProgressBar
         android:id="@+id/progressBar"

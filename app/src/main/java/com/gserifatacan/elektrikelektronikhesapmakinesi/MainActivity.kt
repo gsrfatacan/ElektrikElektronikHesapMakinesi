@@ -1,11 +1,12 @@
 package com.gserifatacan.elektrikelektronikhesapmakinesi
 
 import android.annotation.SuppressLint
-import androidx.appcompat.app.AppCompatActivity
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.util.Log
 import android.view.Menu
 import androidx.appcompat.app.ActionBarDrawerToggle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.NavigationUI
@@ -19,7 +20,6 @@ import com.gserifatacan.elektrikelektronikhesapmakinesi.databinding.ActivityMain
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
-
     private var mInterstitialAd: InterstitialAd? = null
     private final var TAG = "MainActivity"
 

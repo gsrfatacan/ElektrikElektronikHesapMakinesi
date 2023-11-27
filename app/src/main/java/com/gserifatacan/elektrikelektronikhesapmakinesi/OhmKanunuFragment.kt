@@ -49,10 +49,10 @@ class OhmKanunuFragment : Fragment() {
             hideKeyboard()
 
             if (direnc != null && akim != null && gerilim != null) {
-                Toast.makeText(activity,"Lütfen en fazla iki adet değer giriniz.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(activity,R.string.ohmkanunuuyari1, Toast.LENGTH_SHORT).show()
             }
             else if(direnc == null && akim ==null || direnc == null && gerilim == null || akim == null && gerilim == null){
-                Toast.makeText(activity,"Lütfen en az iki adet değer giriniz.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(activity,R.string.ohmkanunuuyari2, Toast.LENGTH_SHORT).show()
             }
             else if (gerilim != null && akim != null) {
                 val direncSonuc = gerilim / akim

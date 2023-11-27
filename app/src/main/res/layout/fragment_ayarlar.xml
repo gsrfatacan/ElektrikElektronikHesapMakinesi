@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     tools:context=".AyarlarFragment">
 
     <TextView
@@ -13,7 +14,7 @@
         android:layout_marginTop="30dp"
         android:text="@string/ayarlar"
         android:textColor="@color/renkli"
-        android:textSize="20sp"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,65 +22,33 @@
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginStart="40dp"
         android:text="@string/degerlendir"
         android:textColor="@color/yazi"
-        android:textSize="16sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/textView12"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
     <TextView
         android:id="@+id/textView12"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="347dp"
+        android:layout_marginStart="40dp"
         android:text="@string/paylas"
         android:textColor="@color/yazi"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
-
-    <ImageButton
-        android:id="@+id/actionDegerlendir"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginBottom="20dp"
-        android:background="@color/background"
-        android:src="@drawable/degerlendirresim"
-        app:layout_constraintBottom_toTopOf="@+id/actionPaylas"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/themeSwitch"
-        app:tint="@color/mavisari" />
-
-    <ImageButton
-        android:id="@+id/actionPaylas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginBottom="347dp"
-        android:background="@color/background"
-        android:src="@drawable/paylasresim"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/actionDegerlendir"
-        app:tint="@color/mavisari" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="20dp"
         android:text="Gürkan Şerif ATACAN tarafından gelıştirildi."
         android:textAlignment="center"
         android:textColor="@color/renkli"
@@ -90,40 +59,84 @@
 
     <Switch
         android:id="@+id/themeSwitch"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
         android:layout_marginEnd="45dp"
-        android:layout_marginBottom="20dp"
         android:thumbTint="@color/mavisari"
-        app:layout_constraintBottom_toTopOf="@+id/actionDegerlendir"
+        app:layout_constraintBottom_toBottomOf="@+id/textView13"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+        app:layout_constraintTop_toTopOf="@+id/textView13"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginStart="40dp"
         android:text="@string/karanlikMod"
         android:textColor="@color/yazi"
-        android:textSize="16sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/textView11"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4"
+        app:layout_constraintVertical_chainStyle="spread" />
 
     <ImageView
         android:id="@+id/imageView17"
         android:layout_width="30dp"
         android:layout_height="30dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:src="@drawable/ayarlaricon"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:tint="@color/yazi" />
+
+    <Button
+        android:id="@+id/actionDegerlendir"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/background"
+        android:foreground="@drawable/degerlendirresim"
+        android:foregroundGravity="center"
+        android:foregroundTint="@color/mavisari"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView11"
+        app:strokeColor="@color/butongumus"
+        app:strokeWidth="1dp" />
+
+    <Button
+        android:id="@+id/actionPaylas"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/background"
+        android:foreground="@drawable/paylasresim"
+        android:foregroundGravity="center"
+        android:foregroundTint="@color/mavisari"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView12"
+        app:strokeColor="@color/butongumus"
+        app:strokeWidth="1dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout4"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/butongumus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

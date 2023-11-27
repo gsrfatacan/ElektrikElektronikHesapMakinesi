@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     tools:context=".DortBantDirencFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -13,7 +14,7 @@
 
         <Button
             android:id="@+id/buttonKahverengi42"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:text="@string/kahverengi"
             android:textColor="#FFFFFF"
@@ -27,7 +28,7 @@
 
         <Button
             android:id="@+id/buttonKahverengi43"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:text="@string/kahverengi"
             android:textColor="#FFFFFF"
@@ -41,7 +42,7 @@
 
         <Button
             android:id="@+id/buttonKahverengi44"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_marginEnd="10dp"
             android:text="@string/kahverengi"
@@ -56,7 +57,7 @@
 
         <Button
             android:id="@+id/buttonKahverengi41"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_marginStart="10dp"
             android:text="@string/kahverengi"
@@ -71,69 +72,77 @@
 
         <Button
             android:id="@+id/buttonSiyah41"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_marginStart="10dp"
             android:layout_marginTop="2dp"
             android:text="@string/siyah"
             android:textColor="#FFFFFF"
             android:textSize="8sp"
-            app:backgroundTint="#000000"
+            app:backgroundTint="@color/black"
             app:cornerRadius="15dp"
             app:layout_constraintEnd_toStartOf="@+id/buttonSiyah42"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:strokeColor="@color/white"
+            app:strokeWidth="0.5dp" />
 
         <Button
             android:id="@+id/buttonSiyah42"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_marginTop="2dp"
             android:text="@string/siyah"
             android:textColor="#FFFFFF"
             android:textSize="8sp"
-            app:backgroundTint="#000000"
+            app:backgroundTint="@color/black"
             app:cornerRadius="15dp"
             app:layout_constraintEnd_toStartOf="@+id/buttonSiyah43"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/buttonSiyah41"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:strokeColor="@color/white"
+            app:strokeWidth="0.5dp" />
 
         <Button
             android:id="@+id/buttonSiyah43"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_marginTop="2dp"
             android:text="@string/siyah"
             android:textColor="#FFFFFF"
             android:textSize="8sp"
-            app:backgroundTint="#000000"
+            app:backgroundTint="@color/black"
             app:cornerRadius="15dp"
             app:layout_constraintEnd_toStartOf="@+id/buttonSiyah44"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/buttonSiyah42"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:strokeColor="@color/white"
+            app:strokeWidth="0.5dp" />
 
         <Button
             android:id="@+id/buttonSiyah44"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_marginTop="2dp"
             android:layout_marginEnd="10dp"
             android:text="@string/siyah"
             android:textColor="#FFFFFF"
             android:textSize="8sp"
-            app:backgroundTint="#000000"
+            app:backgroundTint="@color/black"
             app:cornerRadius="15dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/buttonSiyah43"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:strokeColor="@color/white"
+            app:strokeWidth="0.5dp" />
 
         <Button
             android:id="@+id/buttonKirmizi41"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_marginStart="10dp"
             android:text="@string/kirmizi"
@@ -148,7 +157,7 @@
 
         <Button
             android:id="@+id/buttonKirmizi42"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:text="@string/kirmizi"
             android:textColor="#FFFFFF"
@@ -162,7 +171,7 @@
 
         <Button
             android:id="@+id/buttonKirmizi43"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:text="@string/kirmizi"
             android:textColor="#FFFFFF"
@@ -176,7 +185,7 @@
 
         <Button
             android:id="@+id/buttonKirmizi44"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_marginEnd="10dp"
             android:text="@string/kirmizi"
@@ -191,7 +200,7 @@
 
         <Button
             android:id="@+id/buttonTuruncu41"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_marginStart="10dp"
             android:text="@string/turuncu"
@@ -206,7 +215,7 @@
 
         <Button
             android:id="@+id/buttonTuruncu42"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:text="@string/turuncu"
             android:textColor="#000000"
@@ -220,7 +229,7 @@
 
         <Button
             android:id="@+id/buttonTuruncu43"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:text="@string/turuncu"
             android:textColor="#000000"
@@ -234,7 +243,7 @@
 
         <Button
             android:id="@+id/buttonTuruncu44"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_marginEnd="10dp"
             android:text="@string/turuncu"
@@ -249,7 +258,7 @@
 
         <Button
             android:id="@+id/buttonSari41"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_marginStart="10dp"
             android:text="@string/sari"
@@ -264,7 +273,7 @@
 
         <Button
             android:id="@+id/buttonSari42"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:text="@string/sari"
             android:textColor="#000000"
@@ -278,7 +287,7 @@
 
         <Button
             android:id="@+id/buttonSari43"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:text="@string/sari"
             android:textColor="#000000"
@@ -292,7 +301,7 @@
 
         <Button
             android:id="@+id/buttonSari44"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_marginEnd="10dp"
             android:text="@string/sari"
@@ -307,7 +316,7 @@
 
         <Button
             android:id="@+id/buttonYesil41"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_marginStart="10dp"
             android:text="@string/yesil"
@@ -322,7 +331,7 @@
 
         <Button
             android:id="@+id/buttonYesil42"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:text="@string/yesil"
             android:textColor="#FFFFFF"
@@ -336,7 +345,7 @@
 
         <Button
             android:id="@+id/buttonYesil43"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:text="@string/yesil"
             android:textColor="#FFFFFF"
@@ -350,7 +359,7 @@
 
         <Button
             android:id="@+id/buttonYesil44"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_marginEnd="10dp"
             android:text="@string/yesil"
@@ -365,7 +374,7 @@
 
         <Button
             android:id="@+id/buttonMavi41"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_marginStart="10dp"
             android:text="@string/mavi"
@@ -380,7 +389,7 @@
 
         <Button
             android:id="@+id/buttonMavi42"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:text="@string/mavi"
             android:textColor="#FFFFFF"
@@ -394,7 +403,7 @@
 
         <Button
             android:id="@+id/buttonMavi43"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:text="@string/mavi"
             android:textColor="#FFFFFF"
@@ -408,7 +417,7 @@
 
         <Button
             android:id="@+id/buttonMavi44"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_marginEnd="10dp"
             android:text="@string/mavi"
@@ -423,7 +432,7 @@
 
         <Button
             android:id="@+id/buttonMor41"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_marginStart="10dp"
             android:text="@string/mor"
@@ -438,7 +447,7 @@
 
         <Button
             android:id="@+id/buttonMor42"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:text="@string/mor"
             android:textColor="#FFFFFF"
@@ -452,7 +461,7 @@
 
         <Button
             android:id="@+id/buttonMor43"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:text="@string/mor"
             android:textColor="#FFFFFF"
@@ -466,7 +475,7 @@
 
         <Button
             android:id="@+id/buttonMor44"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_marginEnd="10dp"
             android:text="@string/mor"
@@ -481,7 +490,7 @@
 
         <Button
             android:id="@+id/buttonGri41"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_marginStart="10dp"
             android:text="@string/gri"
@@ -496,7 +505,7 @@
 
         <Button
             android:id="@+id/buttonGri42"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:text="@string/gri"
             android:textColor="#FFFFFF"
@@ -510,7 +519,7 @@
 
         <Button
             android:id="@+id/buttonGri43"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:text="@string/gri"
             android:textColor="#FFFFFF"
@@ -524,7 +533,7 @@
 
         <Button
             android:id="@+id/buttonGri44"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_marginEnd="10dp"
             android:text="@string/gri"
@@ -539,7 +548,7 @@
 
         <Button
             android:id="@+id/buttonBeyaz44"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_marginEnd="10dp"
             android:text="@string/beyaz"
@@ -550,11 +559,13 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/buttonBeyaz43"
-            app:layout_constraintTop_toBottomOf="@+id/buttonGri44" />
+            app:layout_constraintTop_toBottomOf="@+id/buttonGri44"
+            app:strokeColor="@color/black"
+            app:strokeWidth="0.5dp" />
 
         <Button
             android:id="@+id/buttonBeyaz43"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:text="@string/beyaz"
             android:textColor="#000000"
@@ -564,11 +575,13 @@
             app:layout_constraintEnd_toStartOf="@+id/buttonBeyaz44"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/buttonBeyaz42"
-            app:layout_constraintTop_toBottomOf="@+id/buttonGri43" />
+            app:layout_constraintTop_toBottomOf="@+id/buttonGri43"
+            app:strokeColor="@color/black"
+            app:strokeWidth="0.5dp" />
 
         <Button
             android:id="@+id/buttonBeyaz42"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:text="@string/beyaz"
             android:textColor="#000000"
@@ -578,11 +591,13 @@
             app:layout_constraintEnd_toStartOf="@+id/buttonBeyaz43"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/buttonBeyaz41"
-            app:layout_constraintTop_toBottomOf="@+id/buttonGri42" />
+            app:layout_constraintTop_toBottomOf="@+id/buttonGri42"
+            app:strokeColor="@color/black"
+            app:strokeWidth="0.5dp" />
 
         <Button
             android:id="@+id/buttonBeyaz41"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_marginStart="10dp"
             android:text="@string/beyaz"
@@ -593,17 +608,19 @@
             app:layout_constraintEnd_toStartOf="@+id/buttonBeyaz42"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/buttonGri41" />
+            app:layout_constraintTop_toBottomOf="@+id/buttonGri41"
+            app:strokeWidth="0.5dp"
+            app:strokeColor="@color/black" />
 
         <Button
             android:id="@+id/buttonHesapla4"
             android:layout_width="150dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="10dp"
+            android:layout_height="60dp"
             android:text="@string/hesapla"
             android:textColor="@color/butonyazi"
             app:backgroundTint="@color/mavisari"
-            app:cornerRadius="20dp"
+            app:cornerRadius="30dp"
+            app:layout_constraintBottom_toTopOf="@+id/textsonuc4bant"
             app:layout_constraintEnd_toStartOf="@+id/buttonAltin4"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
@@ -613,10 +630,11 @@
             android:id="@+id/textsonuc4bant"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:textColor="@color/yazi"
+            android:textColor="@color/renkli"
             android:textColorHint="#DCDCDC"
             android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/buttonGumus4"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
@@ -624,10 +642,9 @@
 
         <Button
             android:id="@+id/buttonAltin4"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
-            android:layout_marginStart="7dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginEnd="10dp"
             android:text="@string/altin"
             android:textColor="#000000"
             android:textSize="8sp"
@@ -639,10 +656,9 @@
 
         <Button
             android:id="@+id/buttonGumus4"
-            android:layout_width="90dp"
+            android:layout_width="0dp"
             android:layout_height="40dp"
-            android:layout_marginStart="7dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginEnd="10dp"
             android:text="@string/gumus"
             android:textColor="#000000"
             android:textSize="8sp"
@@ -653,15 +669,15 @@
             app:layout_constraintTop_toBottomOf="@+id/buttonAltin4" />
 
         <ImageView
-            android:id="@+id/imageView12"
-            android:layout_width="60dp"
-            android:layout_height="20dp"
-            android:layout_marginBottom="10dp"
+            android:id="@+id/imageView11"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:src="@drawable/resistoricon"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintEnd_toEndOf="@+id/buttonGumus4"
+            app:layout_constraintStart_toStartOf="@+id/buttonGumus4"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGumus4"
+            app:layout_constraintVertical_bias="0.5" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

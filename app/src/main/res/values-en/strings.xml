@@ -33,7 +33,6 @@
     <string name="menu">Menu</string>
     <string name="paylas">Share APP</string>
     <string name="degerlendir">Rate APP</string>
-    <string name="kirsofakimuyari">Enter the resistance values in the R1, R2, R3 and V boxes.</string>
     <string name="kondansator">Capasitor</string>
     <string name="kondansatorAciklama">Select the numbers on the capacitor in order.</string>
     <string name="karanlikMod">Light/Dark Theme</string>
@@ -44,8 +43,49 @@
     <string name="paralelrl">Parallel Resistor-Inductor Circuit</string>
     <string name="paralelrc">Parallel Resistor-Capasitor Circuit</string>
     <string name="paralelrlc">Parallel Resistor-Inductor-Capasitor Circuit</string>
+    <string name="tamam">OK</string>
+    <string name="seciniz">Choose</string>
+    <string name="toolbar">Electrical Electronics</string>
 
+    <string name="kirsofgerilimhatirlatma">Do not forget V = VR1 + VR2 + VR3!</string>
+    <string name="kirsofgerilimuyari">Enter the values in the R1, R2, R3 and V boxes.</string>
+    <string name="kirsofakimhatirlatma">Do not forget I = IR1 + IR2 + IR3!</string>
+    <string name="kirsofakimuyari">Enter the values in the R1, R2, R3 and V boxes.</string>
+    <string name="kirsof">Kirchhoff\'s Laws</string>
 
+    <string name="besbantuyari">Please choose five colors in order</string>
+    <string name="dortbantuyari">Please choose four colors in order</string>
+    <string name="ucbantuyari">Please choose three colors in order</string>
 
+    <string name="ohmkanunuuyari1">Please enter a maximum of two values.</string>
+    <string name="ohmkanunuuyari2">Please enter at least two values.</string>
 
+    <string name="direncdegerisonuc">Resistor Value</string>
+    <string name="akimdegerisonuc">Current Value</string>
+    <string name="gerilimdegerisonuc">Voltage Value</string>
+
+    <string name="direncbaglantiuyari">Enter the resistance values in the R1, R2 and R3 boxes</string>
+    <string name="direnc_baglanti">Connection of Resistors</string>
+
+    <string name="rcuyari">Please enter the values in the R, C, V and f boxes.</string>
+    <string name="rluyari">Please enter the values in the R, L, V and f boxes.</string>
+    <string name="rlcuyari">Please enter the values in the R, L, C, V and f boxes.</string>
+
+    <string name="kondansatoruyari">Please select the numbers on the Capacitor respectively.</string>
+    <string name="leduyari">Please select the LED color.</string>
+
+    <string name="paralelrcuyari">Please select the unit of the capacitor</string>
+    <string name="paralelrluyari">Please select the unit of the inductor</string>
+    <string name="reklam">Remove Ads.</string>
+
+    <string name="alternatif_akimin_max_degerini_giriniz">Please enter the maximum value of the voltage.</string>
+    <string name="etkin_deger">Effective Value</string>
+    <string name="ortalama_deger">Average Value</string>
+    <string name="ani_deger">Instantaneous Value</string>
+    <string name="ac_deger_uyari">Please enter the maximum value of the voltage.</string>
+    <string name="alternatifakimdeğerleri">Values of Alternating Current</string>
+    <string name="ani_deger_süre">Enter time (ms)</string>
+    <string name="ani_deger_frekans">Enter the frequency (Hz)</string>
+    <string name="ani_deger_uyari">Please enter the duration and frequency.</string>
+    <string name="iptal">Cancel</string>
 </resources>

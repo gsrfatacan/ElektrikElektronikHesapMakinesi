@@ -3,11 +3,11 @@ package com.gserifatacan.elektrikelektronikhesapmakinesi
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatDelegate
+import androidx.fragment.app.Fragment
 import com.gserifatacan.elektrikelektronikhesapmakinesi.databinding.FragmentAyarlarBinding
 
 class AyarlarFragment : Fragment() {
@@ -19,45 +19,45 @@ class AyarlarFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
         _binding = FragmentAyarlarBinding.inflate(inflater, container, false)
-        val view = binding.root
-        return view
-
-    }
-
-    override fun onDestroyView() {
-        super.onDestroyView()
-        _binding = null
+        return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.actionPaylas.setOnClickListener() {
+        binding.actionPaylas.setOnClickListener {
             val shareBody =
                 "Elektrik Elektronik Hesap Makinesi Uygulamasını Play Store'dan Indir: https://play.google.com/store/apps/details?id=com.gserifatacan.elektrikelektronikhesapmakinesi&pli=1"
             val shareIntent = Intent(Intent.ACTION_SEND)
-            shareIntent.type = "Text/Plain"
+            shareIntent.type = "text/plain"
             shareIntent.putExtra(Intent.EXTRA_TEXT, shareBody)
             startActivity(Intent.createChooser(shareIntent, "Paylaş"))
-            return@setOnClickListener
         }
 
-        binding.actionDegerlendir.setOnClickListener() {
+        binding.actionDegerlendir.setOnClickListener {
             val packageName = "com.gserifatacan.elektrikelektronikhesapmakinesi"
-            val intent =
-                Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=$packageName"))
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=$packageName"))
             startActivity(intent)
-            return@setOnClickListener
         }
 
-        binding.themeSwitch.setOnCheckedChangeListener { _, checkedId ->
-            when (checkedId) {
-                true -> AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+        val sharedApplication = MyApplication()
+        sharedApplication.beginSharedPreferences(requireContext())
+        val sharedData = sharedApplication.getData(requireContext())
 
-                false -> AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+        binding.themeSwitch.isChecked = sharedData
+        binding.themeSwitch.setOnCheckedChangeListener { compoundButton, isChecked ->
+            if (isChecked) {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+            } else {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
             }
+            sharedApplication.putData(isChecked)
         }
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
     }
 }

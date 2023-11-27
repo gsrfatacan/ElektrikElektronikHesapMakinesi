@@ -52,7 +52,7 @@ class SeriFragment : Fragment() {
                     binding.textViewResSeri.text = "Reş = $sonucTamSayi Ω"
                 }
             }else{
-                Toast.makeText(activity,"R1, R2 ve R3 kutucuklarına direnç değerlerini giriniz", Toast.LENGTH_SHORT).show()
+                Toast.makeText(activity,R.string.direncbaglantiuyari, Toast.LENGTH_SHORT).show()
             }
         }
     }

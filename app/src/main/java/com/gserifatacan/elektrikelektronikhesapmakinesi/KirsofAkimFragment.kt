@@ -121,9 +121,9 @@ class KirsofAkimFragment : Fragment() {
                     binding.textViewKirsifAkimvR3.text = ("VR3 = $v3TamSayi V")
                 }
 
-                val sb = Snackbar.make(mesaj, "I = IR1 + IR2 + IR3 olduğunu unutma!", Snackbar.LENGTH_INDEFINITE)
+                val sb = Snackbar.make(mesaj, R.string.kirsofakimhatirlatma, Snackbar.LENGTH_INDEFINITE)
 
-                sb.setAction("Tamam"){
+                sb.setAction(R.string.tamam){
 
                 }
                 sb.setActionTextColor(Color.BLUE)
@@ -131,7 +131,7 @@ class KirsofAkimFragment : Fragment() {
                 sb.setBackgroundTint(Color.WHITE)
                     .show()
             } else {
-                Toast.makeText(activity, "R1, R2, R3 ve V kutucuklarına direnç değerlerini giriniz" , Toast.LENGTH_SHORT)
+                Toast.makeText(activity, R.string.kirsofakimuyari , Toast.LENGTH_SHORT)
                     .show()
             }
         }
